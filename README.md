@@ -1,22 +1,22 @@
 # Nova Tools
 
-A set of tools to modify the files in Nova, so we can get a translation going!
+Un ensemble d'outils pour modifier les fichiers dans Nova, afin que nous puissions obtenir une traduction!
 
 
 ##AIF to GXT (aif_to_gxt.py) [Developed by Nagato]
-Converts AIF files to GXT files, for use with GXTConvert. (Only works with Python 2!)
+Convertit les fichiers AIF en fichiers GXT, à utiliser avec GXTConvert. (Fonctionne uniquement avec Python 2!)
 
-This will convert a AIF file to GXT, then automatically to PNG.
+Cela convertira un fichier AIFF en TXT, puis automatiquement en PNG.
 
 ##GXT Convert (GXTConvert.exe) [Developed by [xdaniel](https://twitter.com/xdanieldzd)]
-This converts GXT files to PNG.
+Cela convertit les fichiers GXT en PNG.
 
 ##psnova-texteditor [Developed by Nagato]
-Includes two parts: psnova-texteditor and psnova-textinserter.  
+Comprend deux parties: psnova-texteditor et psnova-textinserter.  
   
-psnova-texteditor is a GUI program that lets you view any .rmd file located in the "scripts" folder in the same folder as the EXE. This tool can also be used to dump all strings into separate PNG files for viewing outside of the application. NOTE: You must also have BasicCharSet.rmd and BasicRubySet.rmd available in the scripts folder for maximum compatibility.    
+psnova-texteditor est un programme GUI qui vous permet d'afficher n'importe quel fichier .rmd situé dans le dossier "scripts" du même dossier que le fichier EXE. Cet outil peut également être utilisé pour transférer toutes les chaînes dans des fichiers PNG distincts pour les afficher en dehors de l'application.. NOTE: Vous devez aussi avoir BasicCharSet.rmd ET BasicRubySet.rmd disponible dans le dossier scripts pour une compatibilité maximale.    
   
-psnova-textinserter is a CLI program that uses the translations.json file from psnova-texteditor to generate new .rmd files. The original .rmd files must be located in the "scripts" folder in the same folder as the EXE.
+psnova-textinserter est un programme CLI qui utilise le fichier translations.json de psnova-texteditor pour générer de nouveau fichier .rmd. Les fichiers .rmd d'origine doivent être situés dans le dossier "scripts" du même dossier que le fichier EXE.
   
 ##NovaParse [Developed by [Kyle873](https://github.com/Kyle873)]
-This tool downloads a given ZIP revision of the PSNovaTranslations repository and uses the JSON files as an input to insert the translation data into the master JSON file for the purposes of creating the final patch build.
+Cet outil utilise les fichiers JSON comme entrée pour insérer les données de traduction dans le fichier JSON maître afin de créer le correctif final.
